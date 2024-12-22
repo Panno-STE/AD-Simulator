@@ -1,0 +1,12 @@
+<config>
+	<domain>yourdevdomain.com</domain>
+	<baseUserOU>OU=Users,OU=Department,DC=yourdevdomain,DC=com</baseUserOU>
+	<excludedUsersGroup>IgnoreSimulation</excludedUsersGroup>
+	<lockoutAttempts>10</lockoutAttempts>
+	<testLoginServer>dummyServer01.yourdevdomain.com</testLoginServer>
+	<departedOU>OU=Departed,OU=Users,OU=Department,DC=youdevdomain,DC=com</departedOU>
+	<logPath>C:\Simulation\Logs</logPath>
+	<logRetentionDays>3</logRetentionDays>
+	<departmentsList>C:\Simulation\departments.txt</departmentsList>
+	<AADCServer>AADCServer01.yourdevdomain.com</AADCServer>
+</config>
